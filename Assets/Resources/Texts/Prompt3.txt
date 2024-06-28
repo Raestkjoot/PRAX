@@ -1,0 +1,3 @@
+Press A to turn off the pollution machine.
+
+Stop the machine from polluting the area to let nature grow again.

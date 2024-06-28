@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/IntroScene.unity
+    guid: 492a009c22233a34bb9bab0f43c2371d
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 3c6d2c23b5345864eaa4c0176a0a84ae
+  - enabled: 1
+    path: Assets/Scenes/LevelSelect.unity
+    guid: 435892c83458d4045b23dbac60b718ab
+  - enabled: 1
+    path: Assets/Scenes/Levels/Level0.unity
+    guid: c6aaa78b418c1436e831548737155897
+  - enabled: 1
+    path: Assets/Scenes/Levels/Level1.unity
+    guid: 8c7ce6de6d684244b929e9ff3fdbfc21
+  - enabled: 1
+    path: Assets/Scenes/Levels/Level2.unity
+    guid: 256f92f2e05bea8499de27c984706513
+  - enabled: 1
+    path: Assets/Scenes/Levels/Level3.unity
+    guid: 13b89db4836ca4b469b1a184b64c69fb
+  - enabled: 1
+    path: Assets/Scenes/Levels/Level4.unity
+    guid: c6fa8d21a3f7a774ebfedf28b801a051
+  - enabled: 1
+    path: Assets/Scenes/Levels/Level5.unity
+    guid: 0e337bd2bf833744aa1970da5841e157
+  m_configObjects:
+    com.unity.input.settings: {fileID: 11400000, guid: 1734642df3799a64cab0aa99981aa8c9,
+      type: 2}
