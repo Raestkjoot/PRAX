@@ -161,7 +161,7 @@ public class ThrowDistraction : MonoBehaviour
         Rigidbody rb = distractor.GetComponent<Rigidbody>();
         rb.AddForce(_throwDir * _force * _forceMultiplyer);
         rb.angularVelocity = distractor.transform.forward * 7.0f;
-        rb.angularDrag = 0.0f;
+        rb.angularDamping = 0.0f;
         
         TrajectoryDrawer.Instance.DeleteTrajectory();
         _isAiming = false;

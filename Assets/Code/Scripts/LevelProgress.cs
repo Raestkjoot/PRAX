@@ -131,7 +131,7 @@ public class LevelProgress : Singleton<LevelProgress>
 
     private async void SmogFadeOut()
     {
-        _postProcessingVolume.profile.TryGet<EdgeParticles_VolumeComponent>
+        _postProcessingVolume.profile.TryGet<EdgeParticlesVolumeComponent>
             (out var edgeParticles);
         edgeParticles.intensity.overrideState = true;
 
@@ -182,7 +182,7 @@ public class LevelProgress : Singleton<LevelProgress>
     {
         // Same as when disabling the SmogOutFog but we decrease the maskSize to make the fog close in towards Player/center instead.
         // Get the particle volume:
-        _postProcessingVolume.profile.TryGet<EdgeParticles_VolumeComponent>
+        _postProcessingVolume.profile.TryGet<EdgeParticlesVolumeComponent>
     (out var edgeParticles);
         // if the polluters have been turned off - reenable the particles
         edgeParticles.active = true;

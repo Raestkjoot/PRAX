@@ -396,10 +396,10 @@
             "id": "e5a7d982-f372-4ae8-ac31-607ca3803df1",
             "actions": [
                 {
-                    "name": "NextParagOrLvl",
+                    "name": "Next",
                     "type": "Button",
                     "id": "5e2d572f-ceac-4d75-a5a8-d3c58cb4bf6f",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
@@ -408,23 +408,67 @@
             "bindings": [
                 {
                     "name": "",
-                    "id": "624bb00d-6d00-4433-9f4a-9f59b56f524a",
-                    "path": "<Keyboard>/space",
+                    "id": "b78e08b7-d68b-47fc-8cce-8195030dd9fd",
+                    "path": "<Keyboard>/anyKey",
                     "interactions": "",
                     "processors": "",
-                    "groups": "Keyboard",
-                    "action": "NextParagOrLvl",
+                    "groups": ";Keyboard",
+                    "action": "Next",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
                 {
                     "name": "",
-                    "id": "278cafbf-a72b-46d7-a86b-f8914131a90a",
-                    "path": "<Keyboard>/e",
+                    "id": "d76f966b-0f31-430b-a606-0445a873c916",
+                    "path": "<Mouse>/press",
                     "interactions": "",
                     "processors": "",
-                    "groups": "Keyboard",
-                    "action": "NextParagOrLvl",
+                    "groups": ";Keyboard",
+                    "action": "Next",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2b0d888d-3419-4ea5-9468-e9df34e2c905",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Keyboard",
+                    "action": "Next",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e88fcb4a-6dfc-4ca2-874f-adf558882aa5",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Keyboard",
+                    "action": "Next",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c921f3b8-ae1e-414b-b672-4cc7853c77e0",
+                    "path": "<Mouse>/backButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Keyboard",
+                    "action": "Next",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "14ae2dff-e9bc-4986-933c-da48056198c2",
+                    "path": "<Mouse>/forwardButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Keyboard",
+                    "action": "Next",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -435,7 +479,123 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "Controller",
-                    "action": "NextParagOrLvl",
+                    "action": "Next",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b5d6126e-10bd-4306-b7c2-18291cb63a16",
+                    "path": "<Gamepad>/buttonEast",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Controller",
+                    "action": "Next",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "402a1a13-8a0c-4749-84a9-cc7d1c96ca52",
+                    "path": "<Gamepad>/buttonWest",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Controller",
+                    "action": "Next",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ae7cf55b-c036-448a-ba02-a023976e33d1",
+                    "path": "<Gamepad>/buttonNorth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Controller",
+                    "action": "Next",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "edda89db-90d1-4c13-96ac-ccbbd3c7b006",
+                    "path": "<Gamepad>/start",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Controller",
+                    "action": "Next",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1e3c61c9-89c8-432f-845c-fe44ee4dd7f7",
+                    "path": "<Gamepad>/select",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Controller",
+                    "action": "Next",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "465f775d-2217-4119-a8ea-a0fefacc0882",
+                    "path": "<Gamepad>/rightTrigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Controller",
+                    "action": "Next",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d65a6672-0977-471f-b96a-864fba2727b2",
+                    "path": "<Gamepad>/leftTrigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Controller",
+                    "action": "Next",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "TutorialPrompts",
+            "id": "c97544ae-e7d6-461a-a5ce-cede94a0f570",
+            "actions": [
+                {
+                    "name": "Next",
+                    "type": "Button",
+                    "id": "d9d3cfcb-7e30-4447-bfd9-5c452396b478",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "cd340993-b5b0-4711-a64f-cbf9bf1be542",
+                    "path": "<Keyboard>/e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Keyboard",
+                    "action": "Next",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1fc96025-d84f-4267-b65c-29fa3cab81c9",
+                    "path": "<Gamepad>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Controller",
+                    "action": "Next",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

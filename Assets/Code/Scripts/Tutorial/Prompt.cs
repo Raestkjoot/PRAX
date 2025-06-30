@@ -94,7 +94,7 @@ public class Prompt : MonoBehaviour
         {
             _inputActions.Enable();
         }
-        _dismissPrompt = _inputActions.IntroScene.NextParagOrLvl;
+        _dismissPrompt = _inputActions.TutorialPrompts.Next;
         _dismissPrompt.performed += Interact;
         _dismissPrompt.Enable();
     }

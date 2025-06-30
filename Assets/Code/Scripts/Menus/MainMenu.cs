@@ -6,6 +6,7 @@ public class MainMenu : MonoBehaviour
 {
     [SerializeField] private GameObject _firstSelectedButton;
     [SerializeField] private GameObject _settingsButton;
+    [SerializeField] private GameObject _settingsBackButton;
 
     private void Start()
     {
@@ -21,7 +22,12 @@ public class MainMenu : MonoBehaviour
         Application.Quit();
     }
 
-    public void BackFromSettings()
+    public void SelectBackButton()
+    {
+        EventSystem.current.SetSelectedGameObject(_settingsBackButton);
+    }
+
+    public void SelectSettingsButton()
     {
         EventSystem.current.SetSelectedGameObject(_settingsButton);
     }

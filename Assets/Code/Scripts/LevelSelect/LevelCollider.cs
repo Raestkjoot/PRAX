@@ -13,6 +13,7 @@ public class LevelCollider : MonoBehaviour
 
     [SerializeField] private GameObject _levelPlato;
     [SerializeField] private Material _completedMaterial;
+    [SerializeField] private GameObject _uncompletedParticles;
 
     [SerializeField] private GameObject _bushes;
 
@@ -60,6 +61,7 @@ public class LevelCollider : MonoBehaviour
             _state = LevelState.Completed;
             _completedVisuals.SetActive(true);
             _levelPlato.GetComponent<MeshRenderer>().material = _completedMaterial;
+            Destroy(_uncompletedParticles);
 
             // let grow plants if this level was just finished
             if (maxUnlocked-1 == _thisLevel)
