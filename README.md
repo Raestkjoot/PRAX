@@ -1,6 +1,8 @@
 # PRAX
 PRAX (Project Restoration: Android 10), a scrap collecting robot tasked with cleaning up polluted areas. Using PRAX’s movement, players will need to collect scrap, turn off polluting machines and avoid enemies. 
 
+[Play on itch.io](https://goumdree.itch.io/prax)
+
 Made for the course *Making Games* at IT University of Copenhagen.
 We used [ITU's own hub](https://github.com/Stribe02/Project-VI) for private repositories during development, so to be able to share the source code I have copied it here.
 
